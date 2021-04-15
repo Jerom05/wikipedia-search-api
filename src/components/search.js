@@ -9,7 +9,7 @@ const Search = ()=>{
 
     useEffect(()=>{
         const search = async()=>{
-            const result = await axios.get("http://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=${term}",{
+            const result = await axios.get("http://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=",{
                 params:{
                     action:'query',
                     list:'search',
@@ -68,7 +68,7 @@ const Search = ()=>{
                             {results.map((result)=>{
                                 return(
                                     <div key={result.pageid}className='item-i'>
-                                        <a  href={`http://en.wikipedia.org?curid=${result.pageid}`}>
+                                        <a target="_blank" rel="noreferrer" href={`http://en.wikipedia.org?curid=${result.pageid}`}>
                                             <div className='content'>
                                                 <div className='header'>
                                                     {result.title}
@@ -86,7 +86,7 @@ const Search = ()=>{
             
 
             {
-                results.length ==0 ? 
+                results.length ===0 ? 
                 <div className='no-result'>
                     <div>
                         <p>Nothing To Search</p>
@@ -96,7 +96,7 @@ const Search = ()=>{
                 : <p></p>
             }
 
-            <div class='footer'>
+            <div className='footer'>
                 Design & Developed by Jeromio Ghagra Calvin
             </div>
         </div>
@@ -106,3 +106,5 @@ const Search = ()=>{
 export default Search
 
 //target="_blank" rel="noreferrer"
+
+//
