@@ -1,0 +1,156 @@
+.body{
+    background-color:#f9fbfe
+}
+
+.header-section{
+    margin-bottom: 0.3rem;
+}
+
+.logo-section{
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    width: 30%;
+    margin: 30px auto;
+}
+
+.wikiLogo{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: white;
+    background-color:#000;
+    padding: 0.4rem 0.4rem  0.4rem  0.6rem;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: inline-block;
+}
+
+.Search-logo{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #EDEBEB;
+    color: #fff;
+    padding:0.4rem;
+    background-color:#1dcea4;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+hr{
+    border: 2px solid #1DCEA4;
+}
+
+.search-section{
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.search-label{
+    font:Roboto;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+
+input[type=text] {
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color:#E5E5E5;
+    padding:7px;
+    /* background-image: url('searchicon.png'); */
+    /* background-position:10px 10px ;  */
+    background-repeat: no-repeat;
+    /* padding: 12px 20px 12px 40px; */
+  }
+  ::placeholder {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #8d7f7f;
+  }
+
+.body-section{
+    width: 90%;
+    height: auto;
+    margin:0 auto;
+    margin-top: 1.3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.suggestions{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #787878;
+}
+
+
+.content-box{
+    width: 95% ;
+    margin: 0 auto;
+    padding:1rem;
+}
+
+.item-i{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #E5E5E5;
+    border: 2px solid #ccc;;
+    border-radius:5px;
+}
+
+.item-i .content{
+    padding:1rem;
+}
+
+.item-i .header{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#565656;
+    margin:10px 10px 10px 0;
+}
+
+span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin:10px 10px 10px 0;
+    color:#565656;
+}
+
+.item-i:hover{
+    background-color: #60e6c6;
+    color: rgb(167, 25, 25);
+}
+
+a{
+    text-decoration: none;
+}
+
+.no-result{
+    height: 350px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #787878;
+}
+.no-result div{
+    margin-top:50px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1DCEA4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
